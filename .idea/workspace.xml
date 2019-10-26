@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e4ae6da-c872-4e5c-becf-48bd5659d282" name="Default Changelist" comment="" />
+    <list default="true" id="2e4ae6da-c872-4e5c-becf-48bd5659d282" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +33,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SXWzgl5i9Gqm9fRa2FeFca9eoa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/GnuWin32/bin/sed.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -51,11 +77,25 @@
       <option name="presentableId" value="Default" />
       <updated>1571710684185</updated>
       <workItem from="1571710685526" duration="3030000" />
-      <workItem from="1571743060418" duration="30178000" />
+      <workItem from="1571743060418" duration="49781000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
