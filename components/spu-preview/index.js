@@ -1,12 +1,10 @@
-// components/spu-scroll/index.js
+// components/spu-preview/index.js
 Component({
   /**
    * Component properties
    */
-
   properties: {
-    theme:Object,
-    spuList:Array
+
   },
 
   /**

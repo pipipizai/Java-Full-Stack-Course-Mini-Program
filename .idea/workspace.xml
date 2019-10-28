@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4ae6da-c872-4e5c-becf-48bd5659d282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/activity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/latest-me/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/latest-me/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/latest-me/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/latest-me/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/home/title@interest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/latest-me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxss/sleeve.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
@@ -29,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -45,6 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/GnuWin32/bin/sed.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,7 +66,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LING\WeChatProjects\miniprogram-1\imgs\home" />
+      <recent name="C:\Users\LING\WeChatProjects\miniprogram-1\imgs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571710684185</updated>
       <workItem from="1571710685526" duration="3030000" />
-      <workItem from="1571743060418" duration="49781000" />
+      <workItem from="1571743060418" duration="83837000" />
     </task>
     <servers />
   </component>

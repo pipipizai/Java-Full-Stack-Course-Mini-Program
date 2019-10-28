@@ -1,0 +1,43 @@
+<!--<view class="container">-->
+<!--    <view  class="inner-left-container">-->
+<!--        <block wx:for="{{latest}}" wx:if="{{index<5}}">-->
+<!--            <l-card full type="cover" image="{{item.img}}" title="{{item.title}}" l-class="life-container"-->
+<!--                    l-img-class="life-img" l-title-class="life-title" bindtap="onProduct" margin-bottom="20rpx">-->
+<!--                <view class='life-product-contianer'>-->
+<!--                    <view class='art-content'>{{item.subtitle}}</view>-->
+<!--                    <view class='peice-container'>-->
+<!--                        <l-price unit="￥" value="{{item.price}}" value-color="#ad0e11" unit-color="#ad0e11"-->
+<!--                                 value-size="36"></l-price>-->
+<!--                    </view>-->
+<!--                </view>-->
+<!--            </l-card>-->
+<!--        </block>-->
+<!--    </view>-->
+
+<!--    <view  class="inner-right-container">-->
+<!--        <block wx:for="{{latest}}" wx:if="{{index>5}}">-->
+<!--            <l-card full type="cover" image="{{item.img}}" title="{{item.title}}" l-class="life-container"-->
+<!--                    l-img-class="life-img" l-title-class="life-title" bindtap="onProduct">-->
+<!--                <view class='life-product-contianer'>-->
+<!--                    <view class='art-content'>{{item.subtitle}}</view>-->
+<!--                    <view class='peice-container'>-->
+<!--                        <l-price unit="￥" value="{{item.price}}" value-color="#ad0e11" unit-color="#ad0e11"-->
+<!--                                 value-size="36"></l-price>-->
+<!--                    </view>-->
+<!--                </view>-->
+<!--            </l-card>-->
+<!--        </block>-->
+
+<!--    </view>-->
+<!--</view>-->
+
+
+    <l-card full type="cover" image="{{latest.items[0].img}}" title="{{latest.items[0].title}}" l-class="life-container" l-img-class="life-img" l-title-class="life-title" bindtap="onProduct">
+        <view class='life-product-contianer'>
+            <view class='art-content'>{{latest.items[0].describe}}</view>
+            <view class='peice-container'>
+                <l-price unit="￥" value="{{latest.items[0].count}}" value-color="#ad0e11" unit-color="#ad0e11" value-size="36"></l-price>
+                <l-price l-class="del-price" unit="￥" value="{{latest.items[0].delCount}}" value-color="#ad0e11" unit-color="#ad0e11" deleted del-color="#666" value-color="#666" unit-color="#666"></l-price>
+            </view>
+        </view>
+    </l-card>

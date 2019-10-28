@@ -1,5 +1,6 @@
 .container{
     padding: 42rpx 0 34rpx 28rpx;
+    background-color: #ffffff;
 
 }
 
@@ -14,7 +15,7 @@
 }
 
 .price-value {
-    font-size: 32rpx !important;
+    font-size: 26rpx !important;
     color: #157658 !important;
 }
 
@@ -22,12 +23,17 @@
     margin-top: 28rpx;
     display: flex;
     flex-direction: row;
+    
 }
 
 .spu-text{
     font-size: 20rpx;
     color: #666666;
     margin-top: 20rpx;
+    /*width: 150rpx;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
 }
 
 .spu-img{

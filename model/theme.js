@@ -19,21 +19,29 @@ class Theme {
 
     }
 
-    async getHomeLocationA(){
+    getHomeLocationA() {
         return this.themes.find(t => t.name === Theme.locationA)
     }
 
-    async getHomeLocationE(){
+    getHomeLocationE() {
         return this.themes.find(t => t.name === Theme.locationE)
     }
 
-    static async getHomeLocationESpu(){
+    getHomeLocationF() {
+        return this.themes.find(t => t.name === Theme.locationF)
+    }
+
+    getHomeLocationH() {
+        return this.themes.find(t => t.name === Theme.locationH)
+    }
+
+    static async getHomeLocationESpu() {
         return Theme.getThemeSpuByName(Theme.locationE)
     }
 
-    static async getThemeSpuByName(name){
+    static async getThemeSpuByName(name) {
         return Http.request({
-            url:`theme/name/${name}/with_spu`
+            url: `theme/name/${name}/with_spu`
         })
     }
 
