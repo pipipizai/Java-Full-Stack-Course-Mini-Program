@@ -72,7 +72,7 @@ class Paging {
         if (url.includes('?')) {
             url += '&' + params
         } else {
-            url = +'?' + params
+            url += '?' + params
         }
         this.req.url = url
         return this.req

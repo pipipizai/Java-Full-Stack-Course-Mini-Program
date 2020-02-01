@@ -25,7 +25,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.0",
 	"appid": "wx1a4331c4a4e07358",
-	"projectname": "practice",
+	"projectname": "miniprogram-1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

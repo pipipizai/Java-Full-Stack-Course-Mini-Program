@@ -2,41 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4ae6da-c872-4e5c-becf-48bd5659d282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/hot-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/hot-list/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/hot-list/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/latest-me/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/latest-me/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/latest-me/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/latest-me/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/home/title@interest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/latest-me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxss/sleeve.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wxs/price.wxs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="miniprogram-1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,16 +31,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1SXWzgl5i9Gqm9fRa2FeFca9eoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/GnuWin32/bin/sed.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,25 +56,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LING\WeChatProjects\miniprogram-1\imgs\home" />
       <recent name="C:\Users\LING\WeChatProjects\miniprogram-1\imgs" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,7 +75,11 @@
       <option name="presentableId" value="Default" />
       <updated>1571710684185</updated>
       <workItem from="1571710685526" duration="3030000" />
-      <workItem from="1571743060418" duration="83837000" />
+      <workItem from="1571743060418" duration="94131000" />
+      <workItem from="1577154843452" duration="600000" />
+      <workItem from="1580134859876" duration="1634000" />
+      <workItem from="1580394442336" duration="292000" />
+      <workItem from="1580394923245" duration="8456000" />
     </task>
     <servers />
   </component>
@@ -109,7 +91,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -117,5 +101,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="118" y="88" key="#Notifications" timestamp="1580552730171">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="118" y="88" key="#Notifications/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580552730171" />
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580135049563">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580135049563" />
+    <state x="186" y="13" key="CommitChangelistDialog2" timestamp="1580553456146">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="186" y="13" key="CommitChangelistDialog2/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580553456146" />
+    <state x="387" y="219" key="FileChooserDialogImpl" timestamp="1580552794148">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="387" y="219" key="FileChooserDialogImpl/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580552794148" />
+    <state x="270" y="75" key="SettingsEditor" timestamp="1580552799316">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="75" key="SettingsEditor/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580552799316" />
+    <state x="376" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580553443231">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="376" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/-1366.279.1366.1024@0.0.1536.864" timestamp="1580553443231" />
   </component>
 </project>
